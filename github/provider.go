@@ -34,7 +34,7 @@ func init() {
 // NewProvider returns a function that returns the schema.Provider for this provider.
 func NewProvider(version, commit string) func() *schema.Provider {
 	return func() *schema.Provider {
-		return &schema.Provider{
+		return registerNoizuExtensions(&schema.Provider{
 			Schema: map[string]*schema.Schema{
 				"base_url": {
 					Type:        schema.TypeString,
@@ -330,7 +330,7 @@ func NewProvider(version, commit string) func() *schema.Provider {
 			},
 
 			ConfigureContextFunc: configureProvider(version, commit),
-		}
+		})
 	}
 }
 
