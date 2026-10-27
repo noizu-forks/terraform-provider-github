@@ -4,6 +4,16 @@ Noizu changes only. Upstream `CHANGELOG.md` is never edited (conflict
 avoidance — see `NOIZU.md`); at v6.13.0 upstream carries no root
 CHANGELOG.md anyway.
 
+## 2026-10-27
+
+- Added hand-authored project docs: `docs/PROJ-LAYOUT.md` (+`layout/`),
+  `docs/PROJ-ARCH.md` (+`arch/`), `docs/PROJ-SCHEMA.md`,
+  `docs/THREAT-MODEL.md` (+`threats/`), each with a `.summary.md`. Describes
+  this fork tree only (provider schema, auth chain, transport, extension
+  layer, on-disk stores, threat register). Two open findings recorded:
+  `token` is not `Sensitive` in the provider schema, and the fork has no
+  CI/dependency-advisory signal.
+
 ## 2026-10-14
 
 - Scaffolded the Noizu extension layer: `github/noizu_provider.go`
