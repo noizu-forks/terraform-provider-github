@@ -1,5 +1,7 @@
 # Threat Model
 
+<!-- 〚📁:f132676e-c5ba-5650-840c-35a7b2a558ff〛 Threat Model :: Living threat model: attack surface, credential paths, supply-chain exposure, register. -->
+
 ## Overview
 
 The crown jewels are twofold: **GitHub credentials** (PAT/OAuth token, GitHub App private key) and the **managed GitHub estate** — the repos, teams, org settings and secrets Terraform is authorised to create, mutate and destroy. A defect in this provider does not merely mis-report; `tofu apply` deletes real repositories, and a leaked credential grants whatever scope the operator's token carries.

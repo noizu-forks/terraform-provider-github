@@ -1,5 +1,7 @@
 # Project Schema
 
+<!-- 〚📁:a1b7f14f-2354-5bf9-9aa1-fb356422d624〛 Project Schema :: Data contracts: provider config schema, registry inventory, state IDs, on-disk stores. -->
+
 There is **no relational database** in this repository — no SQL, no migrations, no ORM. Per the schema-doc scope table, this document covers the structured data that does exist:
 
 | Data kind | Where | Section |
