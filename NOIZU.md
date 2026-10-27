@@ -1,5 +1,7 @@
 # NOIZU.md — noizu-forks/terraform-provider-github
 
+<!-- 〚📁:b2de3d9e-bdf7-5743-9e73-6c02a33041f7〛 Noizu Fork Contract :: Fork contract: how the noizu extension layer stays conflict-free against upstream. -->
+
 Noizu's fork of [integrations/terraform-provider-github](https://github.com/integrations/terraform-provider-github),
 carrying an extension layer for resources the upstream provider does not
 (plan to) ship. This file is the contract for how the fork stays

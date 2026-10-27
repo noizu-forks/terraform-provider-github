@@ -1,0 +1,74 @@
+---
+pointers:
+  a1b7f14f-2354-5bf9-9aa1-fb356422d624:
+    created_at: 2026-10-27T05:14:26.308778Z
+    description: 'Data contracts: provider config schema, registry inventory, state IDs, on-disk stores.'
+    file_path: docs/PROJ-SCHEMA.md
+    function: Project Schema
+    kind: file
+    line: 3
+    locations:
+      - file_path: docs/PROJ-SCHEMA.md
+        line: 3
+    token: 𔃭𔃋𓔔𔅴
+    updated_at: 2026-10-27T05:14:26.308778Z
+  b2de3d9e-bdf7-5743-9e73-6c02a33041f7:
+    created_at: 2026-10-27T05:14:26.308761Z
+    description: 'Fork contract: how the noizu extension layer stays conflict-free against upstream.'
+    file_path: NOIZU.md
+    function: Noizu Fork Contract
+    kind: file
+    line: 3
+    locations:
+      - file_path: NOIZU.md
+        line: 3
+    token: 𓧬𓘏𓦓𓞷
+    updated_at: 2026-10-27T05:14:26.308761Z
+  d39eb92c-4528-559a-8d36-ee5e89f21182:
+    created_at: 2026-10-27T05:14:26.308781Z
+    description: 'Architecture overview: plugin lifecycle, auth chain, dual client stacks, extension layer.'
+    file_path: docs/PROJ-ARCH.md
+    function: Project Architecture
+    kind: file
+    line: 3
+    locations:
+      - file_path: docs/PROJ-ARCH.md
+        line: 3
+    token: 𔐟𓩻𓟈𔘒
+    updated_at: 2026-10-27T05:14:26.308781Z
+  ead581d8-7fcc-51ea-99e9-c91f596d6b88:
+    created_at: 2026-10-27T05:14:26.308766Z
+    description: 'Navigable map of the fork tree: provider package, ghclient, docs and tooling.'
+    file_path: docs/PROJ-LAYOUT.md
+    function: Project Layout
+    kind: file
+    line: 3
+    locations:
+      - file_path: docs/PROJ-LAYOUT.md
+        line: 3
+    token: 𓩍𓱶𓬃𓥈
+    updated_at: 2026-10-27T05:14:26.308766Z
+  f132676e-c5ba-5650-840c-35a7b2a558ff:
+    created_at: 2026-10-27T05:14:26.308743Z
+    description: 'Living threat model: attack surface, credential paths, supply-chain exposure, register.'
+    file_path: docs/THREAT-MODEL.md
+    function: Threat Model
+    kind: file
+    line: 3
+    locations:
+      - file_path: docs/THREAT-MODEL.md
+        line: 3
+    token: 𓠲𓯿𓪈𔖏
+    updated_at: 2026-10-27T05:14:26.308743Z
+  f3260096-6a15-5bc3-994f-700eb8e8bcf1:
+    created_at: 2026-10-27T05:14:26.308774Z
+    description: Dated log of Noizu-only changes to the fork.
+    file_path: NOIZU-CHANGELOG.md
+    function: Noizu Fork Changelog
+    kind: file
+    line: 3
+    locations:
+      - file_path: NOIZU-CHANGELOG.md
+        line: 3
+    token: 𓱱𓺫𔏘𓪁
+    updated_at: 2026-10-27T05:14:26.308774Z

@@ -1,5 +1,7 @@
 # Project Layout
 
+<!-- 〚📁:ead581d8-7fcc-51ea-99e9-c91f596d6b88〛 Project Layout :: Navigable map of the fork tree: provider package, ghclient, docs and tooling. -->
+
 Fork tree: `noizu-forks/terraform-provider-github` (upstream `integrations/terraform-provider-github`, base release tag `v6.13.0`). Branch `develop` carries the Noizu line; `main` is a pristine upstream mirror.
 
 Counts below are from `git ls-files` at the doc-sweep commit — this tree only, not upstream at large.

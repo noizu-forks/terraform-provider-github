@@ -1,5 +1,7 @@
 # Project Architecture
 
+<!-- 〚📁:d39eb92c-4528-559a-8d36-ee5e89f21182〛 Project Architecture :: Architecture overview: plugin lifecycle, auth chain, dual client stacks, extension layer. -->
+
 ## Overview
 
 This repository is a **Terraform/OpenTofu provider plugin** — a single Go binary (`main.go` → `plugin.Serve`) that Terraform launches as a gRPC subprocess. It translates HCL into GitHub REST/GraphQL API calls and back. There is no server, database, or long-running service: every architectural concern is in-process (schema, clients, transport) or in the boundary to GitHub's API.
